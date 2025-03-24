@@ -10,10 +10,9 @@ const routes: Routes = [
   { path:'contacto', component: ContactoComponent},
   { path: 'productos', component: ProductosComponent},
   { path: 'servicio', component: ServicioComponent},
-  { path: 'inicio', component: InicioComponent},
+  { path: '', component: InicioComponent },
   { path: 'nosotros', component: NosotrosComponent},
-  {path:'', redirectTo:'inicio', pathMatch:'full'}, //Redirección por defecto
-  {path:'**', redirectTo:'inicio'}, //Ruta de errores (404)
+  { path: '**', redirectTo: '', pathMatch: 'full' }, //Redirección por defecto
 ];
 
 @NgModule({
