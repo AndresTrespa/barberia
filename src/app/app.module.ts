@@ -3,11 +3,11 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 
 import { AppRoutingModule } from './app-routing.module'; //importa el módulo de rutas
 import { AppComponent } from './app.component';
-import { ServicioComponent } from './components/servicio/servicio.component';
-import { NosotrosComponent } from './components/nosotros/nosotros.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
-import { ProductosComponent } from './components/productos/productos.component';
-import { InicioComponent } from './components/inicio/inicio.component';
+import { ServicioComponent } from './page/servicio/servicio.component';
+import { NosotrosComponent } from './page/nosotros/nosotros.component';
+import { ContactoComponent } from './page/contacto/contacto.component';
+import { ProductosComponent } from './page/productos/productos.component';
+import { InicioComponent } from './page/inicio/inicio.component';
 
 @NgModule({
   declarations: [
