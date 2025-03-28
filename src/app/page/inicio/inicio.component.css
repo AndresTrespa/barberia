@@ -3,18 +3,3 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-.navbar{
-    display: flex;
-}
-ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    gap: 10px;
-}
-a{
-    color: #000;
-    text-decoration: none;
-}
